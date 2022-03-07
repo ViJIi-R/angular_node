@@ -1,203 +1,73 @@
 <!DOCTYPE html>
 <html>
-<title>Index</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-
-*{
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-body{
+    body{
   font-family: Helvetica;
   -webkit-font-smoothing: antialiased;
-  background: rgb(10, 24, 39);
+  background: rgb(10, 24,39);
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 1px);
+  margin: 10%;
 }
-h2{
+.card {
+  box-shadow: 0 4px 8px 0 rgba(240, 233, 233, 0.2);
+  
+  color: antiquewhite;
+  max-width: 280px;
+  margin: auto;
   text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: rgb(101, 115, 117);
   font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: white;
-  padding: 30px 0;
 }
 
-/* Table Styles */
-
-.table-wrapper{
-  margin: 10px 70px 70px;
-  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
-}
-
-.fl-table {
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: normal;
+button {
   border: none;
-  border-collapse: collapse;
-  width: 100%;
-  max-width: 100%;
-  white-space: nowrap;
-  background-color: white;
-}
-
-.fl-table td, .fl-table th {
-  text-align: center;
+  outline: 0;
+  display: inline-block;
   padding: 8px;
+  color:rgb(196, 38, 38);
+  background-color:wheat;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
 }
 
-.fl-table td {
-  border-right: 1px solid #f8f8f8;
-  font-size: 12px;
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color:rgb(10,24,39);
 }
 
-.fl-table thead th {
-  color: #ffffff;
-  background: #4FC3A1;
-}
-
-
-.fl-table thead th:nth-child(odd) {
-  color: #ffffff;
-  background: #324960;
-}
-
-.fl-table tr:nth-child(even) {
-  background: #F8F8F8;
-}
-
-/* Responsive */
-
-@media (max-width: 767px) {
-  .fl-table {
-      display: block;
-      width: 100%;
-  }
-  .table-wrapper:before{
-      content: "Scroll horizontally >";
-      display: block;
-      text-align: right;
-      font-size: 11px;
-      color: white;
-      padding: 0 0 10px;
-  }
-  .fl-table thead, .fl-table tbody, .fl-table thead th {
-      display: block;
-  }
-  .fl-table thead th:last-child{
-      border-bottom: none;
-  }
-  .fl-table thead {
-      float: left;
-  }
-  .fl-table tbody {
-      width: auto;
-      position: relative;
-      overflow-x: auto;
-  }
-  .fl-table td, .fl-table th {
-      padding: 20px .625em .625em .625em;
-      height: 60px;
-      vertical-align: middle;
-      box-sizing: border-box;
-      overflow-x: hidden;
-      overflow-y: auto;
-      width: 120px;
-      font-size: 13px;
-      text-overflow: ellipsis;
-  }
-  .fl-table thead th {
-      text-align: left;
-      border-bottom: 1px solid #f7f7f9;
-  }
-  .fl-table tbody tr {
-      display: table-cell;
-  }
-  .fl-table tbody tr:nth-child(odd) {
-      background: none;
-  }
-  .fl-table tr:nth-child(even) {
-      background: transparent;
-  }
-  .fl-table tr td:nth-child(odd) {
-      background: #F8F8F8;
-      border-right: 1px solid #E6E4E4;
-  }
-  .fl-table tr td:nth-child(even) {
-      border-right: 1px solid #E6E4E4;
-  }
-  .fl-table tbody td {
-      display: block;
-      text-align: center;
-  }
+button:hover, a:hover {
+  opacity: 0.7;
 }
 </style>
-
+</head>
 <body>
-  <h2 >MY PROJECTS</h2>
-  <div class="table-wrapper">
-      <table class="fl-table">
-          <thead>
-          <tr>
-              <th>HTML-BASICS</th>
-              <th>HTML-CHALLENGES</th>
-              <th>JS-CHALLENGES</th>
-          </tr>
-          </thead>
-          <tbody>            
-  <tr>
-    <td Style="text-align:center"><a href="./src/pagea.html">Page A</a></td> 
-    <td Style="text-align:center"><a href="./src/APJ.html">Tribute to APJ</a></td> 
-    <td Style="text-align:center"><a href="https://js-basic-lessons-five.vercel.app/src/article.html">Article Component</a></td> 
 
-    </td> 
-  </tr><tr>
-    <td Style="text-align:center"><a href="./src/pageb.html">Page B</a></td> 
-    <td Style="text-align:center"> <a href="./src/COVID.html">Covid-survey</a></td> 
-    <td Style="text-align:center"> <a href="https://js-basic-lessons-five.vercel.app/src/advicegenerator.html">Advice Generator</a></td> 
-
-  </tr><tr>
-    <td Style="text-align:center"><a href="./src/pagec.html">Page C</a></td> 
-    <td Style="text-align:center"><a href="./src/HONDA.html">Honda-Product Launching Page</a>
-  </tr><tr>
-    <td Style="text-align:center"><a href="./src/paged.html">Page D</a></td> 
-    <td Style="text-align:center"><a href="./src/csslessons/qrcode.html">QR-code</a></td> 
-  </tr><tr>
-    <td Style="text-align:center"><a href="./src/pagee.html">Page E</a></td> 
+<div class="card">
+  <img src="images/viji.jpg" alt="John" style="width:100%">
+  <h1>Vijaysri R</h1>
+  <p class="title">Intern Programmer,Chain-sys
+  </p>
+  <p>
+      HTML| CSS | JS
+  </p>
+  <div style="margin: 24px 0;">
     
-    <td Style="text-align:center" ><a href="./src/csslessons/ordersummary.html">ordersummary</a></a></td> 
-  </tr><tr>
-    <td Style="text-align:center"><a href="./src/pagef.html">Page F</a></td> 
-    <td Style="text-align:center"><a href="./src/csslessons/nftpreview.html">Nft-Preview</a></a></td> 
-  </tr><tr>
-    <td Style="text-align:center"><a href="./src/pageg.html">Page G</a></td> 
-    <td Style="text-align:center"><a href="./src/csslessons/profilecard.html">Profile Card</a></td> 
-  </tr><tr>
-    <td Style="text-align:center"><a href="./src/pageh.html">Page H</a></td> 
-    <td Style="text-align:center"><a href="./src/csslessons/3-column.html">3-column</a></td> 
-  </tr><tr>
-    <td Style="text-align:center"><a href="./src/pagei.html">Page I</a></td> 
-    <td Style="text-align:center"><a href="./src/csslessons/flyo.html">Fylo-Storage card</a></td> 
-  </tr>
-  <tr>
-    <td Style="text-align:center"> <a href="./src/anchor.html">Anchor</a> </td>
-    <td Style="text-align:center"><a href="./src/csslessons/testimonial.html">Testimonial</a></td> 
-  </tr>
-  <tr>
-    <td Style="text-align:center"> <a href="./src/radio.html">Radio</a> </td>
-    <td Style="text-align:center"><a href="./src/csslessons/singleprice.html">Single Price Grid</a></td> 
-  </tr>
-  <tr>
-    <td Style="text-align:center"><a href="./src/readonly.html">Readonly</a></td>
-    <td Style="text-align:center"><a href="./src/csslessons/socialproof.html">Social Proof Component</a></td> 
-  </tr>
-  <tr>
-    <td Style="text-align:center"><a href="./src/parent.html">Parent</a></td>    
-    <td Style="text-align:center"><a href="./src/csslessons/stats.html">Stats Component</a></td> 
-  </tr>
-  
-</tr>
-  
-            
+  </div>
+  <p><button>
+  <a href="../angular_node/src/index2.html">My Projects</a>
+</button></p>
+</div>
+
+</body>
+</html>
