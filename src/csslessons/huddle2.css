@@ -539,7 +539,7 @@
   
     .feature-3::before {
       top: calc(-20vw + -35px);
-      background-image: url(../huddle-landing-page-with-curved-sections-master/images/bg-section-top-mobile-2.svg);
+      background-image: url(../huddle-landing-page-with-curved-sections-master/images/bg-section-bottom-mobile-1.svg);
       background-position: top;
     }
   
